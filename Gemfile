@@ -4,8 +4,9 @@ gem 'rails', '3.1.1'
 gem 'sqlite3'
 gem 'devise'
 
+gem 'rspec-rails', :group => [:development, :test]
+
 group :test do
-    gem 'rspec-rails'
     gem 'database_cleaner'
     gem 'factory_girl_rails'
     gem 'cucumber-rails'
